@@ -100,6 +100,29 @@ nav ul li a:hover {
     text-align: center;
     font-size: 40px;
 }
+.pro-mene {
+    text-align: center;
+    font-size: 40px;
+}
+.container-pro-mene {
+    display: flex; /* Використання flexbox для розташування в рядок */
+    align-items: flex-start; /* Вирівнювання елементів по вертикалі */
+    gap: 20px; /* Відстань між фото і текстом */
+    margin: 20px;
+}
 
+/* Стиль зображення */
+.container-pro-mene img {
+    max-width: 450px; /* Максимальна ширина фото */
+    height: auto; /* Автоматичне збереження пропорцій */
+    border-radius: 10px; /* Злегка заокруглені кути */
+}
+
+/* Стиль тексту */
+.container-pro-mene .text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5; /* Міжрядковий інтервал для читабельності */
+}
 
  
