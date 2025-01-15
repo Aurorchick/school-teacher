@@ -31,14 +31,19 @@ img {
 }
 
 .gallery-item p {
-    margin-top: 10px;
-    font-size: 30px;
+    width: 30%; /* Кожен елемент займає 30% ширини */
+    margin-bottom: 20px; /* Відступ між рядками */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #333;
 }
 
 @media (max-width: 768px) {
     .gallery-item {
-        width: 76%;
+        width: 100%;
     }
 }
 about-me {
