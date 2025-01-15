@@ -38,7 +38,7 @@ img {
 
 @media (max-width: 768px) {
     .gallery-item {
-        width: 100%;
+        width: 76%;
     }
 }
 about-me {
