@@ -124,5 +124,9 @@ nav ul li a:hover {
     color: #333;
     line-height: 1.5; /* Міжрядковий інтервал для читабельності */
 }
-
+ .video{
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+ }
  
